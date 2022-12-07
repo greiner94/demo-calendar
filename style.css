@@ -1,0 +1,34 @@
+.wrapper {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 3px;
+}
+.cell {
+  border-radius: 2px;
+  border: 2px solid #313131;
+}
+.inner-cell {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.current {
+  background-color: #a54545;
+  color: #fff;
+}
+.selectors {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.selectors > select {
+  margin: 5px;
+  height: 30px;
+  width: 60px;
+}
